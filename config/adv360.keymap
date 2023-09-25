@@ -4,8 +4,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
-#include "../../zmk-config/zmk-nodefree-config/helper.h"
-// C:\Users\Лфещт\git\Keyboard\zmk-config\zmk-nodefree-config\helper.h
+// #include "../zmk-config/zmk-nodefree-config/helper.h"
+#include "C:/Users/Лфещт/git/Keyboard/zmk-config/zmk-nodefree-config/helper.h"
 // C:\Users\Лфещт\git\Keyboard\Adv360-Pro-ZMK\config\adv360.keymap
 
 // #define NAV 1
