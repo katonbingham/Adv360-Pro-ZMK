@@ -38,8 +38,6 @@
 };
 
 &hm {  // homerow-mods config
-    compatible = "zmk,behavior-hold-tap";
-    label = "HOMEROW_MODS";
     flavor = "balanced";
     #binding-cells = <2>;
     tapping-term-ms = <280>;
@@ -76,22 +74,22 @@
 
 
 / {
-    behaviors {
-      #include "macros.dtsi"
+    // behaviors {
+    //   #include "macros.dtsi"
 
-      hm: homerow_mods {
-          compatible = "zmk,behavior-hold-tap";
-          label = "HOMEROW_MODS";
-          flavor = "balanced";
-          #binding-cells = <2>;
-          tapping-term-ms = <280>;
-          quick_tap_ms = <QUICK_TAP_MS>;
-          // global-quick-tap-ms = <150>;
-          bindings = <&kp>, <&kp>;
-          // hold-trigger-key-positions = <TRIGGER_POS>;
-          // hold-trigger-on-release;
-      };
-    };
+    //   hm: homerow_mods {
+    //       compatible = "zmk,behavior-hold-tap";
+    //       label = "HOMEROW_MODS";
+    //       flavor = "balanced";
+    //       #binding-cells = <2>;
+    //       tapping-term-ms = <280>;
+    //       quick_tap_ms = <QUICK_TAP_MS>;
+    //       // global-quick-tap-ms = <150>;
+    //       bindings = <&kp>, <&kp>;
+    //       // hold-trigger-key-positions = <TRIGGER_POS>;
+    //       // hold-trigger-on-release;
+    //   };
+    // };
 
   keymap {
     compatible = "zmk,keymap";
